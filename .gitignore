@@ -1,4 +1,6 @@
-# Prerequisites
+build/
+managed_components/
+
 *.d
 
 # Object files

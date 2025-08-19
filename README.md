@@ -7,7 +7,7 @@ ethernet을 사용함.
 ## build후 size
 
 We will get back to you as soon as possible.
-
+```
 ┏━━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━━━━━┳━━━━━━━━━━━━━━━┓
 ┃ Memory Type/Section ┃ Used [bytes] ┃ Used [%] ┃ Remain [bytes] ┃ Total [bytes] ┃
 ┡━━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━━━━━╇━━━━━━━━━━━━━━━┩
@@ -48,3 +48,4 @@ Total image size: 635023 bytes (.bin may be padded larger)
 │    .rtc_reserved    │           24 │     0.07 │                │               │
 └─────────────────────┴──────────────┴──────────┴────────────────┴───────────────┘
 Total image size: 672415 bytes (.bin may be padded larger)
+```

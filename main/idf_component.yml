@@ -1,7 +1,5 @@
 dependencies:
   idf:
     version: '>=5.5.0'
-  skuodi/libssh2_esp:
-    version: 1.0.0
   espressif/ethernet_init:
     version: '*'

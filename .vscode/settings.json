@@ -5,7 +5,7 @@
   "idf.openOcdConfigs": [
     "board/esp32p4-builtin.cfg"
   ],
-  "idf.portWin": "COM1",
+  "idf.portWin": "COM11",
   "idf.toolsPathWin": "c:\\ESP\\.espressif",
   "idf.customExtraVars": {
     "IDF_TARGET": "esp32p4"
@@ -20,6 +20,14 @@
 "files.associations": {
 	"uto_eth_init.h": "c",
 	"esp_eth_mac_spi.h": "c",
-	"esp_idf_version.h": "c"
+	"esp_idf_version.h": "c",
+	"snmp_opts.h": "c",
+	"opt.h": "c",
+	"snmp.h": "c",
+	"tcp.h": "c",
+	"snmp_mib2.h": "c",
+	"lwipopts.h": "c",
+	"snmpv3_dummy.h": "c",
+	"private_mib.h": "c"
 }
 }

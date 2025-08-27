@@ -53,10 +53,12 @@ static esp_err_t example_set_dns_server(esp_netif_t *netif, uint32_t addr, esp_n
 
 static void example_set_static_ip(esp_netif_t *netif)
 {
+#if 1
     if (esp_netif_dhcpc_stop(netif) != ESP_OK) {
         ESP_LOGE(TAG, "Failed to stop dhcp client");
         return;
     }
+#endif
     esp_netif_ip_info_t ip;
     memset(&ip, 0 , sizeof(esp_netif_ip_info_t));
     ip.ip.addr = ipaddr_addr(EXAMPLE_STATIC_IP_ADDR);

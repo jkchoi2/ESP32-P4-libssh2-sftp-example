@@ -92,17 +92,9 @@ dependencies:
     source:
       type: idf
     version: 5.5.0
-  skuodi/libssh2_esp:
-    component_hash: a65c753c7388cf47299765dc8c8a22dccdc53d1e72a2fb0cf361c1f800067a63
-    dependencies: []
-    source:
-      registry_url: https://components.espressif.com/
-      type: service
-    version: 1.0.0
 direct_dependencies:
 - espressif/ethernet_init
 - idf
-- skuodi/libssh2_esp
-manifest_hash: 2d0dac88b6f89adfb91c6513c88c31e6ff82ec37158223641acbb55888118803
+manifest_hash: 441f0440d43deec064013e3b1158bf11013f3b1986740b86f10d6a2de98d3396
 target: esp32p4
 version: 2.0.0
